@@ -8,7 +8,7 @@ I tried to evaluate the Richardson number and the strength of the density fluctu
 radii. 
 
 Main: "density_fluct_2.jl"
-Functions: "read.jl" reads and HDF5 file
+Functions: "read.jl" reads and HDF5 file. 
            "v_turb.jl" , "v_mean.jl" filter the density and velocity field in order to study the properties of the turbulent motions. To achieve this I substracted
            the mean, evaluated in a 300 kpc wide, to the original field. 
            "pdf.jl" computes a probability distribution function.
